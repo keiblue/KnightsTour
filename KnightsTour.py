@@ -155,7 +155,7 @@ def walk_brd( x, y, brd, mv, max_x, max_y ):
 # @param brd: the current board the knight is one
 # @param mv: the move that the knight is currently on
 # @param brd_size: the overall board
-# @return: 1 if the tour was successful, 1 if not
+# @return: 1 if the tour was successful, 0 if not
 def tour_brd( x, y, brd, mv, max_x, max_y ):
   ans = walk_brd( x, y, brd, mv, max_x, max_y )
   new_brd = ans[0]
